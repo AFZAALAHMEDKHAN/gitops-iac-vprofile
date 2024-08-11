@@ -15,7 +15,7 @@ on:
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID}}
   AWS_SECRET_ACCCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-  BUCKET_TF_STATE: ${{ secrets.UCKET_TF_STATE}}
+  BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE}}
   AWS_REGION: us-east-1
   EKS_CLUSTER: vprofile-eks
   #mentioning aws region and eks cluster name as variable is not mandatory, but as they will be used a lot better to mention
