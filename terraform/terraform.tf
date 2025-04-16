@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-afzaal"
+    bucket = "terraform-afzaal-vprofile"
     key    = "state-file/backend"
     region = "us-east-1"
   }
